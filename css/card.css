@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-container {
+  background-color: rgb(52, 52, 54);
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  width: 300px;
+  height: 460px;
+  position: relative;
+}
+
+.user-about {
+  text-align: center;
+}
+
+.first-section {
+  background-color: rgb(243, 236, 236);
+  border-radius: 15px 15px 0 0;
+  height: 60%;
+  padding: 20px;
+}
+
+.red-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(229, 74, 100);
+  position: absolute;
+  right: -25px;
+  top: 130px;
+  color: white;
+  font-size: 30px;
+  box-shadow: 0px 0px 5px 1px rgb(229, 74, 100);
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+strong {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.profile p,
+span {
+  font-size: smaller;
+  padding: 10px;
+}
+
+.profile span {
+  color: rgb(119, 114, 114);
+}
+
+.second-container {
+  height: 40%;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-connection {
+  display: flex;
+  width: 100%;
+}
+
+.user-connection span {
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+.user-connection h5 {
+  color: rgb(119, 114, 114);
+  font-size: smaller;
+  text-align: center;
+}
+
+.second-container p {
+  padding: 10px;
+  font-size: smaller;
+  color: rgb(119, 114, 114);
+}
+
+.second-container .clr-btn {
+  padding: 10px 40px;
+  border-radius: 50px;
+  background-color: lightseagreen;
+  color: white;
+  cursor: pointer;
+}
